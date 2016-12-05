@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_maheen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pattern2"
+    android:orientation="vertical"
+    tools:context="com.example.android.maheen.Maheen">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/paraandi_image_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/paraandi"
+            android:paddingRight="2dp"
+            android:layout_gravity="left"
+            />
+
+        <ImageView
+            android:id="@+id/phulkari_image_view"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/phulkari"
+            android:paddingLeft="2dp"
+
+            android:layout_gravity="right"
+            />
+
+    </LinearLayout>
+
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Maheen is a couture, high end boutique which specializes in traditional Indian needlework on classic and contemporary cuts and fabric. All designs- inhouse"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:background="@android:color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        android:text="Our Phone number is 0161-245-8999"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="Visit us at #1, The Mall, Gomti House, Ludhiana"
+        android:layout_gravity="center"
+        android:textSize="15sp"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="TIMINGS : 10am-7pm Weekdays"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="TIMINGS : 11am-5pm Saturdays"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:text="Sundays Closed"
+        android:fontFamily="casual"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>
